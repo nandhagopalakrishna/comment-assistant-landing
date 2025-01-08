@@ -27,6 +27,7 @@ function AnimatedNumber({ end, duration = 2000 }: { end: number; duration?: numb
 }
 
 export default function Stats() {
+<<<<<<< HEAD
   const [isVisible, setIsVisible] = React.useState(false);
 
   React.useEffect(() => {
@@ -54,6 +55,15 @@ export default function Stats() {
         <div className={`grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 items-center ${
           isVisible ? 'fade-up visible' : 'fade-up'
         }`}>
+=======
+  return (
+    <div className="bg-gradient-to-b from-gray-50 to-white py-24">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <h2 className="text-6xl sm:text-7xl font-extrabold text-center mb-20 bg-gradient-to-r from-blue-500 to-indigo-500 text-transparent bg-clip-text tracking-tight leading-tight">
+          Together, We Grow Faster!
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 items-center">
+>>>>>>> bb40f04c97eb192b0564d6c33e0973ce8e30352b
           {/* Stats Section */}
           <div className="flex flex-col items-center">
             <span className="text-blue-500 text-7xl sm:text-8xl font-black">
@@ -94,7 +104,11 @@ export default function Stats() {
           {/* Creators Section */}
           <div className="flex flex-col items-center">
             <span className="text-indigo-500 text-7xl sm:text-8xl font-black">
+<<<<<<< HEAD
               <AnimatedNumber end={67} />
+=======
+              <AnimatedNumber end={147} />
+>>>>>>> bb40f04c97eb192b0564d6c33e0973ce8e30352b
             </span>
             <p className="text-gray-600 text-lg font-medium mt-4">Active Creators</p>
           </div>

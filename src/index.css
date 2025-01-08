@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
 
@@ -152,3 +153,5 @@
   opacity: 1;
   transform: translateX(0);
 }
+=======
+>>>>>>> bb40f04c97eb192b0564d6c33e0973ce8e30352b

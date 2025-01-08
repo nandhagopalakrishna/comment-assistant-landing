@@ -18,6 +18,7 @@ export default function Pricing() {
         </p>
 
         <div className="relative group inline-block">
+<<<<<<< HEAD
           <button className="w-full sm:w-auto relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
             <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
             <span className="relative z-10 block px-8 py-4 rounded-xl bg-gray-950">
@@ -27,11 +28,24 @@ export default function Pricing() {
                   <ArrowRight className="w-5 h-5 transition-transform duration-500 group-hover:translate-x-1" />
                 </div>
               </a>
+=======
+          <button className="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
+            <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
+            <span className="relative z-10 block px-8 py-4 rounded-xl bg-gray-950">
+              <div className="relative z-10 flex items-center space-x-2">
+                <span className="transition-all duration-500 group-hover:translate-x-1 text-lg">Download free</span>
+                <ArrowRight className="w-5 h-5 transition-transform duration-500 group-hover:translate-x-1" />
+              </div>
+>>>>>>> bb40f04c97eb192b0564d6c33e0973ce8e30352b
             </span>
           </button>
         </div>
 
+<<<<<<< HEAD
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center sm:space-x-8 space-y-4 sm:space-y-0 text-sm text-gray-500">
+=======
+        <div className="mt-8 flex items-center justify-center space-x-8 text-sm text-gray-500">
+>>>>>>> bb40f04c97eb192b0564d6c33e0973ce8e30352b
           <div className="flex items-center">
             <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></div>
             No credit card
@@ -42,7 +56,11 @@ export default function Pricing() {
           </div>
           <div className="flex items-center">
             <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></div>
+<<<<<<< HEAD
             20 free comments
+=======
+            5 free comments
+>>>>>>> bb40f04c97eb192b0564d6c33e0973ce8e30352b
           </div>
         </div>
       </div>

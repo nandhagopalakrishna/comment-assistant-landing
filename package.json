@@ -13,6 +13,10 @@
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
+=======
+    "react-dom": "^18.3.1",
+>>>>>>> bb40f04c97eb192b0564d6c33e0973ce8e30352b
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
